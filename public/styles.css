@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif, Helvetica;  
+  }
+  
+  /* Clear fix */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+/* body bg */
+
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient( 130deg, rgb(58 17 37), rgb(230 16 195));
+    height: 100vh;
+}
+
+/* white container for entire list */
+
+#container{
+    height: 550px;
+    border: 2px solid white;
+    background: #fff8f0;
+    border-radius: 5px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* header */
+
+header{
+    background: #fff8f0;
+    height: 150px;
+    margin: 0%;
+}
+
+h1{
+    border-bottom: 0.5px solid rgb(221, 94, 200);
+    width: 50%;
+    margin: auto;
+    height: 70px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-size: 2.5rem;
+    color: #b00e65;
+}
+
+.firstP{
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
+/* input section */
+
+#enter{
+    height: 50px;
+}
+
+#enter input{
+    height: 35px;
+    width: 55%;
+    border: 0.5px solid grey;
+    border-radius: 4px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+#addList{
+    border: none;
+    border-radius: 4px;
+    width: 20%;
+    background: rgb(176 13 101);
+    color: white;
+    height: 35px;
+}
+
+#addList:hover{
+    background: rgb(255, 197, 243);
+    color: black;
+}
+
+#addList:active{
+    background: rgb(212, 0, 255);
+}
+
+/* actual list (ul/li) section */
+
+ul{
+    list-style: none;
+    margin-top: 5rem;
+}
+
+/* remaining section */
+
+/* #amount{
+    color: rgb(247, 94, 170);
+    font-size: larger;
+} */
+
+/* clear buttons */
+
+#endAll{
+    border: none;
+    border-radius: 4px;
+    width: 25%;
+    height: 40px;
+    background-color: #b00e65;
+    color: white;
+    margin-top: 4rem;
+}
+
+#endAll:hover{
+    background: 2px solid #ffff;
+}
+
+#endAll:active{
+    background: rgb(109, 2, 250);
+}
+
+/* #endComplete{
+    border: none;
+    border-radius: 4px;
+    width: 25%;
+    height: 40px;
+    background-color: #b00e65;
+    color: white;
+}
+
+#endComplete:hover{
+    background: 2px solid #bb129b;
+}
+
+#endComplete:active{
+    background: rgb(109, 2, 250);
+} */
+
+
+
+
